@@ -1,0 +1,8 @@
+apples,1
+peppers,2
+avocado,3.50
+pineapple,2.50
+pork,8.50
+bread,2
+water,1
+eggs,3

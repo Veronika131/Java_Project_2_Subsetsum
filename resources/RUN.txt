@@ -1,0 +1,142 @@
+-----------------------------------------------------
+
+******  RUN for ShoppingBag Class ******
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries.txt
+budget: 2000
+
+NOTES: Testing target budget > sum of all elements.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your numeric budget:
+2000
+
+Your budget is high enough to buy everything on the grocery list!
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 527423 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/groceries2.txt
+budget: 14.5
+
+NOTES: Testing set of elements found with sums
+       to exactly to target budget.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[1.0, 2.0, 3.5, 2.5, 8.5, 2.0, 1.0, 3.0]
+
+Enter your numeric budget:
+14.5
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 496269 ns
+Purchased grocery prices are:
+[3.5, 2.5, 8.5]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/groceries3.txt
+budget: 21.6
+
+NOTES: Testing target budget returning closest match.
+---------------------------------------------------
+
+The list of groceries has 10 items.
+Groceries wanted:
+[3.5, 1.5, 4.0, 3.0, 5.0, 3.0, 3.5, 2.0, 7.0, 11.5]
+
+Enter your numeric budget:
+21.6
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 578078 ns
+Purchased grocery prices are:
+[3.5, 3.0, 5.0, 3.0, 7.0]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/groceries.txt
+budget: 0
+
+NOTES: Testing target budget of zero returning empty list.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your numeric budget:
+0
+
+Your budget is too low to afford anything on the grocery list!
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 3 ms : 941336 ns
+Purchased grocery prices are:
+[]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/groceries.txt
+budget: -12
+
+NOTES: Testing target negative budget returning empty list.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your numeric budget:
+-12
+
+Your budget is too low to afford anything on the grocery list!
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 405091 ns
+Purchased grocery prices are:
+[]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/groceries3.txt
+budget: fifteen
+budget: 15
+
+NOTES: Testing target budget with non-numeric input
+followed by numeric input, returning closest match.
+---------------------------------------------------
+
+The list of groceries has 10 items.
+Groceries wanted:
+[3.5, 1.5, 4.0, 3.0, 5.0, 3.0, 3.5, 2.0, 7.0, 11.5]
+
+Enter your numeric budget:
+fifteen
+
+Enter your numeric budget:
+15
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 40919 ns
+Purchased grocery prices are:
+[3.5, 1.5, 4.0, 3.0, 3.0]
+Done with ShoppingBag.
+
+

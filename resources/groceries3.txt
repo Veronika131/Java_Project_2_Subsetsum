@@ -1,0 +1,10 @@
+chocolate,3.50
+gum,1.50
+onions,4
+watermelon,3
+shampoo,5
+soap,3
+sugar,3.50
+salt,2
+pizza,7
+cake,11.50
